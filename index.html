@@ -1,70 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <title>Calculadora de IMC</title>
 </head>
+
 <body>
-<div class="gradient-background">
-	<div class="container">
-		<div class="outer-container">
-			<div class="social-icons">
-				<a href="https://www.linkedin.com/in/gabrielmarciel93/" target="_blank"><i class="fab fa-linkedin"></i></a>
-				<a href="https://gabrielmarciel93.github.io/projetoIntegrador/index.html" target="_blank"><i class="fas fa-globe"></i></a>
-				<a href="https://github.com/gabrielmarciel93" target="_blank"><i class="fab fa-github"></i></a>
-				<a href="https://www.instagram.com/anthony_tijuduke" target="_blank"><i class="fab fa-instagram"></i></a>
-				<a href="mailto:contato@gabrielmarciel.com.br?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
-				<a href="https://wa.me/5521988755641123" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i>
-					</a>
-			</div>
-		</div>
-	<h2 align="center">Calculadora de IMC</h2>
+  <div class="gradient-background">
+    <div class="container">
+      <div class="outer-container">
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/gabrielmarciel93/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://gabrielmarciel93.github.io/projetoIntegrador/index.html" target="_blank"><i
+              class="fas fa-globe"></i></a>
+          <a href="https://github.com/gabrielmarciel93" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/anthony_tijuduke" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:contato@gabrielmarciel.com.br?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
+          <a href="https://wa.me/5521988755641123" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+      <h2 align="center">Calculadora de IMC</h2>
 
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" placeholder="Digite seu nome">
-		
-	
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" placeholder="Digite seu nome">
 
-    <label for="peso">Peso (kg):</label>
-    <input type="number" id="peso" placeholder="Digite seu peso">
 
-    <label for="altura">Altura (m):</label>
-    <input type="number" id="altura" placeholder="Digite sua altura">
 
-    <button onclick="calcularIMC()">Calcular IMC</button>
+      <label for="peso">Peso (kg):</label>
+      <input type="number" id="peso" placeholder="Digite seu peso">
 
-    <div id="resultado-container">
-      <h3>Resultado:</h3>
-      <p id="resultado"></p>
-    </div>
-	
-    <footer class="footerstyle">
-      <table align="center">
+      <label for="altura">Altura (m):</label>
+      <input type="number" id="altura" placeholder="Digite sua altura">
+
+      <button onclick="calcularIMC()">Calcular IMC</button>
+
+      <div id="resultado-container">
+        <h3>Resultado:</h3>
+        <p id="resultado"></p>
+      </div>
+
+      <footer class="footerstyle">
+        <table align="center">
 
           <tr>
-              <td>
-                  <p align="center"> Criado por <a class="a-footer"
-                          href="https://www.instagram.com/gabrielmarcieloficial/" target="_blank"><b>Gabriel
-                              Marciel</b></a> no curso de
-                      <a class="a-footer"
-                          href=https://www.firjansenai.com.br/cursorio/portal/detalhe-do-curso/cursos_02/programador-front-end/48897/disponivel"
-                          target="_blank"><b>Front-End</b></a> - <a class="a-footer"
-                          href=https://www.firjansenai.com.br/cursorio/portal/index.php"
-                          target="_blank"><b>SENAI/Maracanã</b></a> - <a class="a-footer"
-                          href=" https://sammyfreitas.github.io/portfolioSite/" target="_blank"><b>Prof. Anthony
-                              Freitas</b></a><br>
-                      Todos os direitos reservados ©
-                      <script>document.write(new Date().getFullYear())</script>
-                  </p>
-              </td>
+            <td>
+              <p align="center"> Criado por <a class="a-footer" href="https://www.instagram.com/gabrielmarcieloficial/"
+                  target="_blank"><b>Gabriel
+                    Marciel</b></a> no curso de
+                <a class="a-footer"
+                  href=https://www.firjansenai.com.br/cursorio/portal/detalhe-do-curso/cursos_02/programador-front-end/48897/disponivel"
+                  target="_blank"><b>Front-End</b></a> - <a class="a-footer"
+                  href=https://www.firjansenai.com.br/cursorio/portal/index.php"
+                  target="_blank"><b>SENAI/Maracanã</b></a> - <a class="a-footer"
+                  href=" https://sammyfreitas.github.io/portfolioSite/" target="_blank"><b>Prof. Anthony
+                    Freitas</b></a><br>
+                Todos os direitos reservados ©
+                <script>document.write(new Date().getFullYear())</script>
+              </p>
+            </td>
           </tr>
-      </table>
-  </footer>
+        </table>
+      </footer>
 
+    </div>
   </div>
-</div>
   <script src="./js/script.js"></script>
 
 </body>
